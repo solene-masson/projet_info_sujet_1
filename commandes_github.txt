@@ -1,0 +1,44 @@
+git init
+
+git config --global user.name 'solene-masson'
+
+git config --global user.email 'solene22.masson@gmail.com'
+
+git add 'nomfichier' -> mettre le fichier choisi sur github (pré-sauvegarde)
+
+git status -> voir les pré-sauvegardes
+
+git rm --cached nomfichier
+
+git add . -> ajoute tous les fichiers 
+
+git rm -r --cached .nomfichier -> enlève fichier qu'on veut pas  
+
+git add *.typefichier *.autretypefichier
+
+git commit -> sauvegarder les commandes effectuées 
+     insert puis echap et :wq
+refaire une sauvegarde:
+git commit -m 'Changement effectué'
+
+git checkout -> remet les fichiers supprimés
+
+touch nomfichier.html -> créer fichier
+touch gitignore -> créé fichier pour les fichiers qu'on ne veut pas mettre sur github
+
+git branch nombranche -> créé une autre branche
+
+git checkout nombranche -> change de branche
+
+git branch --list -> accès aux différentes branches
+
+git merge nombranche -> fusionne les deux branches
+
+touche README.md -> créé une description sur github
+  puis git commit -m 
+  puis git push
+
+git pull -> voir changement ?
+
+Si supprime le fichier :
+   git clone lien
